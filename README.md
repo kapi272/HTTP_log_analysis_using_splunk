@@ -38,7 +38,7 @@ Use SPL queries to complete the following analysis.
 
 ---
 
-### ✅ Task 1: Find the top 10 endpoints generating web traffic
+### ✅ Task 1: Finding the top 10 endpoints generating web traffic
 
 ```spl
 index=http_lab sourcetype="json"
@@ -49,7 +49,7 @@ index=http_lab sourcetype="json"
 
 ---
 
-### ✅ Task 2: Count the number of server errors (5xx) observed
+### ✅ Task 2: Counting the number of server errors (5xx) observed
 
 ```spl
 index=http_lab sourcetype="json" status_code>=500 status_code<600
@@ -79,10 +79,7 @@ index=http_lab sourcetype="json" resp_body_len>500000
 
 ## 📸 Submission
 
-Submit a screenshot for each of the following:
-
-- Your query and result for **Task 1**.
-- Your query and result for **Task 2**.
-- Your query and result for **Task 3**.
-- Your query and result for **Task 4**.
-- Your query and result for **Task 5**.
+top 10 endpoints generating web traffic [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_01_top_10_endpoints_generating_web_traffic.png).
+Counting the number of server errors (5xx) observed [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_02_Count_the_number_of_server_errors_(5xx)_observed.png).
+Identify User-Agents associated with possible scripted attacks [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_03_Identify_User_Agents_associated_with_possible_scripted_attacks.png).
+Find large file transfers (greater than 500 KB) [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_04_Find_large_file_transfers_(greater_than_500_KB).png).
