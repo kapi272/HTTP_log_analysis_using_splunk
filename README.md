@@ -79,7 +79,14 @@ index=http_lab sourcetype="json" resp_body_len>500000
 
 ## 📸 Submission
 
-top 10 endpoints generating web traffic [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_01_top_10_endpoints_generating_web_traffic.png).
-Counting the number of server errors (5xx) observed [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_02_Count_the_number_of_server_errors_(5xx)_observed.png).
-Identify User-Agents associated with possible scripted attacks [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_03_Identify_User_Agents_associated_with_possible_scripted_attacks.png).
-Find large file transfers (greater than 500 KB) [config.py](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_04_Find_large_file_transfers_(greater_than_500_KB).png).
+### Task 1: Top 10 Endpoints
+![Task 1 - Top 10 Endpoints](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_01_top_10_endpoints_generating_web_traffic.png?raw=true)
+
+### Task 2: Server Errors (5xx)
+![Task 2 - Server Errors](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_02_Count_the_number_of_server_errors_(5xx)_observed.png?raw=true)
+
+### Task 3: Scripted User-Agents
+![Task 3 - Scripted User-Agents](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_03_Identify_User_Agents_associated_with_possible_scripted_attacks.png?raw=true)
+
+### Task 4: Large File Transfers
+![Task 4 - Large File Transfers](https://github.com/kapi272/HTTP_log_analysis_using_splunk/blob/c1a6a78bd2470d14e6aa065ff8076502e245ad51/Images/Task_04_Find_large_file_transfers_(greater_than_500_KB).png?raw=true)
